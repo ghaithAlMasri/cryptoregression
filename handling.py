@@ -20,8 +20,7 @@ class handling:
             if data:
                 self.df = pd.read_csv(data)
                 self.df = self.df[self.df.Volume>0]
-                if self.df['Local time']:
-                    self.handle_date()
+                self.handle_date()
                 self.df.to_csv('dataset.csv', index=None)
                 st.dataframe(self.df)
 

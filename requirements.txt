@@ -1,6 +1,5 @@
-streamlit
+streamlit 
 pandas
 ydata-profiling
 streamlit-pandas-profiling
-handling
 pycaret
